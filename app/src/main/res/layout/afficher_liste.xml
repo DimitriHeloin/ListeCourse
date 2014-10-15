@@ -37,22 +37,27 @@
     <LinearLayout
         android:orientation="horizontal"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
+        android:layout_height="wrap_content"
+        android:weightSum="100">
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="30"
             android:layout_height="wrap_content"
             android:text="Editer "
+
             android:id="@+id/btValiderEditerListe" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="40"
             android:layout_height="wrap_content"
             android:text="Réinitialiser"
             android:id="@+id/button" />
 
         <Button
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="30"
             android:layout_height="wrap_content"
             android:text="Supprimer"
             android:id="@+id/button2" />
